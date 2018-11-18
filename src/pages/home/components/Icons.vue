@@ -4,7 +4,7 @@
       <div class="imgDiv">
         <img class="icon-img" :src="item.iconUrl">
       </div>
-      <p class="iconName">{{item.iconName}}</p>
+      <p class="iconName"> {{item.iconName}}</p>
     </div>
   </div>
 </template>
