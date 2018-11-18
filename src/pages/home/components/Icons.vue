@@ -1,11 +1,16 @@
 <template>
   <div class="icons">
-    <div class="icon" v-for="item of iconList" :key="item.iconId1">
-      <div class="imgDiv">
-        <img class="icon-img" :src="item.iconUrl">
-      </div>
-      <p class="iconName">{{item.iconName}}</p>
-    </div>
+    <swiper >
+      <!-- slides -->
+      <swiper-slide v-for="(page, index) of pages" :key="index">
+        <div class="icon" v-for="item of page" :key="item.iconId">
+          <div class="imgDiv">
+            <img class="icon-img" :src="item.iconUrl">
+          </div>
+          <p class="iconName">{{item.iconName}}</p>
+        </div>
+      </swiper-slide>
+    </swiper>
   </div>
 </template>
 
