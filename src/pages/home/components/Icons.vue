@@ -1,8 +1,8 @@
 <template>
   <div class="icons">
-    <swiper >
+    <swiper :options="swiperOption">
       <!-- slides -->
-      <swiper-slide v-for="(page, index) of pages" :key="index">
+      <swiper-slide v-for="(page, index) of pages" :key="index+1">
         <div class="icon" v-for="item of page" :key="item.iconId">
           <div class="imgDiv">
             <img class="icon-img" :src="item.iconUrl">
@@ -19,6 +19,7 @@ export default {
   name: 'HomeIcons',
   data () {
     return {
+      swiperOption: {},
       iconList: [{
         iconId: '0001',
         iconName: '景点门票',
@@ -55,6 +56,30 @@ export default {
         iconId: '0009',
         iconName: '泡温泉',
         iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
+      }, {
+        iconId: '0010',
+        iconName: '泡温泉',
+        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
+      }, {
+        iconId: '0011',
+        iconName: '泡温泉',
+        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
+      }, {
+        iconId: '0012',
+        iconName: '泡温泉',
+        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
+      }, {
+        iconId: '0013',
+        iconName: '泡温泉',
+        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
+      }, {
+        iconId: '0014',
+        iconName: '泡温泉',
+        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
+      }, {
+        iconId: '0015',
+        iconName: '泡温泉',
+        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
       }]
     }
   },
@@ -76,10 +101,12 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
+@import '~styles/mixins.styl'
 .icons
   overflow hidden
   height 0
   padding-bottom 50%
+  margin-top 0.1rem
   .icon
     position relative
     float left
@@ -105,4 +132,5 @@ export default {
       line-height 0.44rem
       color $darkTextColor
       text-align center
+      ellipsis()
 </style>
