@@ -17,70 +17,12 @@
 <script>
 export default {
   name: 'HomeIcons',
+  props: {
+    iconList: Array
+  },
   data () {
     return {
-      swiperOption: {},
-      iconList: [{
-        iconId: '0001',
-        iconName: '景点门票',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png'
-      }, {
-        iconId: '0002',
-        iconName: '一日游',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png'
-      }, {
-        iconId: '0003',
-        iconName: '北京必玩',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png'
-      }, {
-        iconId: '0004',
-        iconName: '溜娃儿',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png'
-      }, {
-        iconId: '0005',
-        iconName: '爬长城',
-        iconUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/0334cf5430b9b5505fd79e2b8d7e8670.png'
-      }, {
-        iconId: '0006',
-        iconName: '故宫',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png'
-      }, {
-        iconId: '0007',
-        iconName: '北京庙会',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/b2/bfbc5d66e0ab5a02.png'
-      }, {
-        iconId: '0008',
-        iconName: '冰雪季',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png'
-      }, {
-        iconId: '0009',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }, {
-        iconId: '0010',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }, {
-        iconId: '0011',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }, {
-        iconId: '0012',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }, {
-        iconId: '0013',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }, {
-        iconId: '0014',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }, {
-        iconId: '0015',
-        iconName: '泡温泉',
-        iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png'
-      }]
+      swiperOption: {}
     }
   },
   computed: {

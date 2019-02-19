@@ -20,46 +20,11 @@
 <script>
 export default {
   name: 'HomeRecommend',
+  props: {
+    recomList: Array
+  },
   data () {
-    return {
-      recomList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        itemTitle: '故宫',
-        itemDesc: '世界五大宫之首,穿越与您尽在咫尺',
-        itemPrice: '20'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1901/97/97f793f8c9f37ac7a3.img.png_200x200_29601dba.png',
-        itemTitle: '北京欢乐谷',
-        itemDesc: '亚洲唯一飞行式过山车等你来挑战',
-        itemPrice: '97.6'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1510/8e/8eea8eb6f41698290.img.jpg_200x200_595cfa1d.jpg',
-        itemTitle: '金隅凤山温泉',
-        itemDesc: '在温泉汤池中增添独享欢乐的私密空间',
-        itemPrice: '248'
-      }, {
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1701/f6/f6159f9ebfb534aca3.img.jpg_200x200_5e71b24c.jpg',
-        itemTitle: '鸟巢欢乐冰雪季',
-        itemDesc: '刮起滑雪的传统与时尚的热潮',
-        itemPrice: '106'
-      }, {
-        id: '0005',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_200x200_444cc7e8.jpg',
-        itemTitle: '圆明园',
-        itemDesc: '百年皇家的珍宝,民族耻辱的见证',
-        itemPrice: '40'
-      }, {
-        id: '0006',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1505/8d/8d1f6d86b2c5926e.water.jpg_200x200_3235712b.jpg',
-        itemTitle: '北京大观园',
-        itemDesc: '红楼梦中走下来的建筑',
-        itemPrice: '33.8'
-      }]
-    }
+    return {}
   }
 }
 </script>

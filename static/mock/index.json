@@ -1,0 +1,171 @@
+{
+    "ret": true,
+    "data": {
+        "city": "北京",
+        "swiperList": [
+            {
+                "id": "0001",
+                "imgURL": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20192/c64e6f7308f67f0862adb64b9d9fcff0.jpg_750x200_37c4c320.jpg"
+            },
+            {
+                "id": "0002",
+                "imgURL": "http://img1.qunarzz.com/piao/fusion/1811/31/da037478f37cf202.jpg_750x200_fe28d396.jpg"
+            },
+            {
+                "id": "0003",
+                "imgURL": "http://img1.qunarzz.com/piao/fusion/1808/70/5603e6a535062402.jpg_750x200_2c552f2c.jpg"
+            },
+            {
+                "id": "0004",
+                "imgURL": "http://img1.qunarzz.com/piao/fusion/1812/d6/daa880b254940402.jpg_750x200_b114308a.jpg"
+            }
+        ],
+        "iconList": [
+            {
+                "iconId": "0001",
+                "iconName": "景点门票",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+            },
+            {
+                "iconId": "0002",
+                "iconName": "一日游",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png"
+            },
+            {
+                "iconId": "0003",
+                "iconName": "北京必玩",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png"
+            },
+            {
+                "iconId": "0004",
+                "iconName": "溜娃儿",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png"
+            },
+            {
+                "iconId": "0005",
+                "iconName": "爬长城",
+                "iconUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/0334cf5430b9b5505fd79e2b8d7e8670.png"
+            },
+            {
+                "iconId": "0006",
+                "iconName": "故宫",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png"
+            },
+            {
+                "iconId": "0007",
+                "iconName": "北京庙会",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/b2/bfbc5d66e0ab5a02.png"
+            },
+            {
+                "iconId": "0008",
+                "iconName": "冰雪季",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png"
+            },
+            {
+                "iconId": "0009",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            },
+            {
+                "iconId": "0010",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            },
+            {
+                "iconId": "0011",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            },
+            {
+                "iconId": "0012",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            },
+            {
+                "iconId": "0013",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            },
+            {
+                "iconId": "0014",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            },
+            {
+                "iconId": "0015",
+                "iconName": "泡温泉",
+                "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png"
+            }
+        ],
+        "recomList": [
+            {
+                "id": "0001",
+                "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+                "itemTitle": "故宫",
+                "itemDesc": "世界五大宫之首,穿越与您尽在咫尺",
+                "itemPrice": "20"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "http://img1.qunarzz.com/sight/p0/1901/97/97f793f8c9f37ac7a3.img.png_200x200_29601dba.png",
+                "itemTitle": "北京欢乐谷",
+                "itemDesc": "亚洲唯一飞行式过山车等你来挑战",
+                "itemPrice": "97.6"
+            },
+            {
+                "id": "0003",
+                "imgUrl": "http://img1.qunarzz.com/sight/p0/1510/8e/8eea8eb6f41698290.img.jpg_200x200_595cfa1d.jpg",
+                "itemTitle": "金隅凤山温泉",
+                "itemDesc": "在温泉汤池中增添独享欢乐的私密空间",
+                "itemPrice": "248"
+            },
+            {
+                "id": "0004",
+                "imgUrl": "http://img1.qunarzz.com/sight/p0/1701/f6/f6159f9ebfb534aca3.img.jpg_200x200_5e71b24c.jpg",
+                "itemTitle": "鸟巢欢乐冰雪季",
+                "itemDesc": "刮起滑雪的传统与时尚的热潮",
+                "itemPrice": "106"
+            },
+            {
+                "id": "0005",
+                "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_200x200_444cc7e8.jpg",
+                "itemTitle": "圆明园",
+                "itemDesc": "百年皇家的珍宝,民族耻辱的见证",
+                "itemPrice": "40"
+            },
+            {
+                "id": "0006",
+                "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/8d/8d1f6d86b2c5926e.water.jpg_200x200_3235712b.jpg",
+                "itemTitle": "北京大观园",
+                "itemDesc": "红楼梦中走下来的建筑",
+                "itemPrice": "33.8"
+            }
+        ],
+        "weekList": [
+            {
+                "id": "0001",
+                "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+                "itemTitle": "京城周末撒欢",
+                "itemDesc": "在帝都过周末，不仅仅是城中游！"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+                "itemTitle": "京城有好泉",
+                "itemDesc": "细数北京温泉，温暖你的冬天"
+            },
+            {
+                "id": "0003",
+                "imgUrl": "http://img1.qunarzz.com/sight/source/1811/7e/476589267ebb41.jpg_r_640x214_bf599709.jpg",
+                "itemTitle": "京城溜娃必去",
+                "itemDesc": "德智体美劳全面发展的亲子日，这些地方该去看看…"
+            },
+            {
+                "id": "0004",
+                "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+                "itemTitle": "寻找北京的皇城范儿",
+                "itemDesc": "数百年的宫廷庙宇，至今依旧威严霸气"
+            }
+        ]
+    }
+}
