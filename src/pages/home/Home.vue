@@ -35,6 +35,7 @@ export default {
   },
   methods: {
     getHomeInfo () {
+      // http://10.6.209.209:8080/travel/home/listAll
       axios.get('/api/index.json').then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {

@@ -30,6 +30,7 @@ export default {
   },
   methods: {
     getCityInfo () {
+      // http://10.6.209.209:8080/travel/city.json
       axios.get('/api/city.json').then(this.handleGetCityInfoSucc)
     },
     handleGetCityInfoSucc (res) {
