@@ -1,6 +1,6 @@
 <template>
   <div id="logo">
-    <home-header :city="city"></home-header>
+    <home-header></home-header>
     <home-swiper :swiperList="swiperList"></home-swiper>
     <home-icons :iconList="iconList"></home-icons>
     <home-recommend :recomList="recomList"></home-recommend>
@@ -26,7 +26,6 @@ export default {
   },
   data () {
     return {
-      city: '',
       swiperList: [],
       iconList: [],
       recomList: [],
@@ -36,14 +35,13 @@ export default {
   methods: {
     getHomeInfo () {
       // http://10.6.209.209:8080/travel/home/listAll
-      axios.get('/api/index.json').then(this.getHomeInfoSucc)
+      axios.get('/api/index.json?city=' + this.$store.state.city).then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {
       res = res.data
       console.log(res)
       if (res.ret && res.data) {
         const data = res.data
-        this.city = data.city
         this.swiperList = data.swiperList
         this.iconList = data.iconList
         this.recomList = data.recomList

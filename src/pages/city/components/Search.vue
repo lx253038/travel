@@ -5,7 +5,12 @@
     </div>
     <div class="search-content" v-show="keyword" ref="search">
       <ul>
-        <li class="search-item border-bottom" v-for="item of list" :key="item.id">{{item.name}}</li>
+        <li
+          @click="handleCityClick(item.name)"
+          class="search-item border-bottom"
+          v-for="item of list"
+          :key="item.id"
+        >{{item.name}}</li>
         <li class="search-end border-bottom" v-show="hasNoData">没有搜索到匹配数据</li>
       </ul>
     </div>
@@ -54,6 +59,12 @@ export default {
   computed: {
     hasNoData () {
       return !this.list.length
+    }
+  },
+  methods: {
+    handleCityClick (city) {
+      this.$store.commit('changeCity', city)
+      this.$router.push('/')
     }
   }
 }
