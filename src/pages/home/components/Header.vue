@@ -2,10 +2,10 @@
   <div class="header">
     <div class="header-left">
       &nbsp;&nbsp;
-      <span class="iconfont">&#xe624;</span>
+      <span class="iconfont">&#xe61e;</span>
     </div>
     <div class="header-input">
-      <span class="iconfont">&#xe632;</span>输入城市/景点/游玩主题
+      <span class="iconfont">&#xe622;</span>输入城市/景点/游玩主题
     </div>
     <router-link to="/city">
       <div class="header-right">
