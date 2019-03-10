@@ -69,6 +69,9 @@ export default {
       this.$router.push('/')
     },
     ...mapMutations(['changeCity'])
+  },
+  deactivated () {
+    this.keyword = ''
   }
 }
 </script>
