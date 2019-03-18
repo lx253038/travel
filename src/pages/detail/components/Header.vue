@@ -6,7 +6,8 @@
     <div class="header-fixed" v-show="!showabs" :style="opacityStyle">
       <router-link to="/">
         <span class="iconfont header-back">&#xe61e;</span>
-      </router-link>景点详情
+      </router-link>
+      {{sightName}}
     </div>
   </div>
 </template>
@@ -14,6 +15,9 @@
 <script>
 export default {
   name: 'DetailHeader',
+  props: {
+    sightName: String
+  },
   data () {
     return {
       showabs: true,
@@ -60,6 +64,7 @@ export default {
     color #ffffff
     font-size 0.5rem
 .header-fixed
+  z-index 2
   position fixed
   top 0
   left 0

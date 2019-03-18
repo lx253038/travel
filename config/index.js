@@ -12,10 +12,15 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://10.6.209.209:8080',
+        // target: 'http://10.6.209.209:8080',
+        // pathRewrite: {
+        //   '^/api/index.json': '/travel/home/listAll',
+        //   '^/api/city.json': '/travel/city.json'
+        // }
+        //本地文件
+        target: 'http://127.0.0.1:8888',
         pathRewrite: {
-          '^/api/index.json': '/travel/home/listAll',
-          '^/api/city.json': '/travel/city.json'
+          '^/api': '/static/mock'
         }
       }
     },
