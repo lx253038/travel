@@ -3,7 +3,7 @@
     <li
       class="item"
       v-for="item of letters"
-      @touchstart="handleTouchStart"
+      @touchstart.prevent="handleTouchStart"
       @touchmove="handleTouchMove"
       @touchend="handleTouchEnd"
       @click="handleClick"
